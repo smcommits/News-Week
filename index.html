@@ -1,245 +1,766 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="bootstrap.css"> 
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="exp.css">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
 
-  </head>
-  <body class="bg-light">
+  <script type="text/javascript" src="dom.js"></script>
 
-	<!-- header section starts here -->
-	<header>
-	  <div class="bg-danger container-fluid red-header d-flex justify-content-between align-items-end p-3">
-	    <div class="d-none"></div>
-	    <div class="middle">
-		  <img src="img/svgexport-1.svg" alt="" class="h-r">
-		</div>
-	    <div class="right-items">
-		  <span class="iconify text-light mr-1" data-icon="vs:profile" data-inline="false"></span>
-		  <button class="bg-warning rounded-pill text-uppercase font-weight-bold border-0 b-r px-3 mr-1">Subscription Offers</button>
-		  <span class="iconify text-light" data-icon="ant-design:menu-outlined" data-inline="false"></span>
-		  
-		</div>
-	  </div>
-	</header>
-	<!-- header section ends here -->
 
-   <!--  main section starts here -->
+</head>
 
-	<main class="bg-light">
+<body class="bg-light mx-auto">
 
-	  <!-- featured story section starts here -->
-	  <section class="p-3 features-stories bg-white shadow-sm">
-		<h6 class="text-secondary text-uppercase font-weight-bold">Featured Stories</h6>
+  <!-- header section starts here -->
+  <header class="sticky-top">
+    <div class="bg-danger container-fluid red-header d-flex justify-content-between align-items-end p-3">
+      <div class="d-none"></div>
+      <div class="middle">
+        <img src="img/svgexport-1.svg" alt="logo-image" class="h-r">
+      </div>
+      <div class="right-items">
+        <span class="iconify text-light mr-1" data-icon="vs:profile" data-inline="false"></span>
+        <button class="bg-warning rounded-pill text-uppercase font-weight-bold border-0 b-r px-3 mr-1">Subscription Offers</button>
+        <span class="iconify text-light" data-icon="ant-design:menu-outlined" data-inline="false"></span>
 
-		<div class="wrapper">
-		  <a href="#">
-			<figure class="position-relative">
-			  <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
-			</figure>
-		  </a>
-		  <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
-		  <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
-		</div>
+      </div>
+    </div>
+  </header>
+  <!-- header section ends here -->
 
-		<div class="wrapper">
-		  <a href="#">
-			<figure class="position-relative">
-			  <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
-			</figure>
-		  </a>
-		  <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
-		  <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
-		</div>	
+  <!--  main section starts here -->
 
-		<div class="wrapper">
-		  <a href="#">
-			<figure class="position-relative">
-			  <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
-			</figure>
-		  </a>
-		  <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
-		  <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
-		</div>	
+  <main class="bg-white container-fluid p-md-2 px-md-4 px-lg-4">
 
-		<div class="wrapper">
-		  <a href="#">
-			<figure class="position-relative">
-			  <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
-			</figure>
-		  </a>
-		  <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
-		  <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
-		</div>	
+    <div class="wrapper row px-3">
+      <!-- featured story section starts here -->
+      <div class="wrapper-section-1 col-12 p-0 col-md-5 col-lg-3 bg-md-white p-md-2 px-lg-3" id="feature">
+        <div id="top-story-backup"></div>
 
-		<div class="wrapper">
-		  <a href="#">
-			<figure class="position-relative">
-			  <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
-			</figure>
-		  </a>
-		  <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
-		  <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
-		</div>	
+        <!-- [> top story section starts here <] -->
+        <!-- <section class="p-3 top-story bg-white d-md-none "> -->
+        <!-- <h6 class="text-secondary text-uppercase font-weight-bold">Top Story</h6> -->
+        <!-- <div class="wrapper"> -->
+        <!-- <a href="#"> -->
+        <!-- <figure class="position-relative"> -->
+        <!-- <img class="w-100" src="img/topstory.jpg" alt="top-story-image"> -->
+        <!-- <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Politics</h5> -->
+        <!-- </figure> -->
+        <!-- </a> -->
+        <!-- <a href="#"><h5 class="font-weight-bold text-uppercase">Trump Makes 'Law and Order' Pitch to Black, Latino Voters in WH Speech</h5></a> -->
+        <!-- <p class="lead">The president said his "pro-police" campaign is necessary for Blacks and Latinos to feel safe in Democratic-run cities.</p> -->
+        <!-- </div>		 -->
+        <!-- </section> -->
+        <!-- [> top story section ends <] -->
 
+
+        <section class="features-stories bg-white mt-sm-4 m-md-0">
+          <h6 class="text-secondary text-uppercase font-weight-bold">Featured Stories</h6>
+
+          <div class="wrapper">
+            <a href="#">
+              <figure class="position-relative">
+                <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
+              </figure>
+            </a>
+            <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
+            <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
+          </div>
+
+          <div class="wrapper">
+            <a href="#">
+              <figure class="position-relative">
+                <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
+              </figure>
+            </a>
+            <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
+            <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
+          </div>
+
+          <div class="wrapper">
+            <a href="#">
+              <figure class="position-relative">
+                <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
+              </figure>
+            </a>
+            <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
+            <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
+          </div>
+
+          <div class="wrapper">
+            <a href="#">
+              <figure class="position-relative">
+                <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
+              </figure>
+            </a>
+            <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
+            <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
+          </div>
+
+          <div class="wrapper">
+            <a href="#">
+              <figure class="position-relative">
+                <img class="w-100" src="img/feature.jpg" alt="featured-story-image">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">News</h5>
+              </figure>
+            </a>
+            <a href="#"><h5 class="font-weight-bold text-uppercase">Biden Holds Advantage Over Trump in Swing States, Penn. a 'Tipping Point'</h5></a>
+            <p class="lead">A recent poll showed the former vice president had a higher level of public figure approval than the president.A recent poll showed the former vice president had a higher level of public figure approval than the president.</p>
+          </div>
+
+        </section>
+
+        <!-- featured story section ends -->
+        <section id="debate-backup">
+        </section>
+
+        <!-- sponsored section starts here -->
+        <section class="sponsored-section p-0 mt-4 mt-sm-4 mt-md-0 bg-white order-4 col">
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+        </section>
+        <!-- sponsored section ends here -->
+      </div>
+
+	  <section id="more-stories-backup">
 	  </section>
 
-	  <!-- featured story section ends -->
 
-	  <!-- sponsored section starts here -->
-	  <section class="sponsored-section p-3 shadow-sm mt-4 mt-sm-4 mt-md-0 bg-white">
-		<div class="card mt-3">
-		  <a href="#">
-			<figure class="position-relative card-img-top">
-			  <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
-			</figure>
-		  </a>
-		  <div class="card-body">
-			<a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
-			<p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
-		  </div>
+
+
+      <div class="wrapper-section-2 col-12 p-0 col-md-7 col-lg-5 px-lg-3" id="top-story-wrapper">
+
+        <!-- top story section starts here -->
+
+        <div id="top-story-original">
+          <section class="top-story bg-white p-0 order-0" id="top-story">
+            <h6 class="text-secondary text-uppercase font-weight-bold">Top Story</h6>
+            <div class="wrapper">
+              <a href="#">
+                <figure class="position-relative">
+                  <img class="w-100" src="img/topstory.jpg" alt="top-story-image">
+                  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Politics</h5>
+                </figure>
+              </a>
+              <a href="#"><h5 class="font-weight-bold text-uppercase">Trump Makes 'Law and Order' Pitch to Black, Latino Voters in WH Speech</h5></a>
+              <p class="lead">The president said his "pro-police" campaign is necessary for Blacks and Latinos to feel safe in Democratic-run cities.</p>
+            </div>
+          </section>
+        </div>
+        <!-- top story section ends -->
+
+        <!-- my turn section starts here -->
+        <section class="my-turn bg-white  mt-4 mt-sm-4 mt-md-0 order-6 row">
+          <h6 class="text-secondary text-uppercase font-weight-bold col-12">My Turn</h6>
+          <figure class="col-12 col-md-4">
+            <img src="img/myturn-new.jpg" alt="my-turn" class="w-100 md-md-0">
+            <figcaption class='mt-2'>
+              <p class="text-secondary text-uppercase font-weight-bold lead">'I Divorced In April. Now I Live Across The World With A New Love'</p>
+            </figcaption>
+          </figure>
+
+          <figure class="mt-2 col-12 col-md-4 m-md-0">
+            <img src="img/myturn-new.jpg" alt="my-turn" class="w-100">
+            <figcaption class='mt-2'>
+              <p class="text-secondary text-uppercase font-weight-bold lead">'I Divorced In April. Now I Live Across The World With A New Love'</p>
+            </figcaption>
+          </figure>
+
+          <figure class="mt-2 col-12 col-md-4 m-md-0">
+            <img src="img/myturn-new.jpg" alt="my-turn" class="w-100">
+            <figcaption class='mt-2'>
+              <p class="text-secondary text-uppercase font-weight-bold lead">'I Divorced In April. Now I Live Across The World With A New Love'</p>
+            </figcaption>
+          </figure>
+        </section>
+        <!-- my turn section ends here -->
+
+        <!-- culture section starts here -->
+
+        <section class="culture-and-travel bg-white mt-0 order-7 row">
+          <h6 class="text-secondary text-uppercase font-weight-bold col-12">Culture &amp; Travel</h6>
+          <figure class="mt-2 col-12 col-md-4">
+            <img src="img/culture-and-travel.jpg" alt="my-turn" class="w-100">
+            <figcaption class='mt-2'>
+              <p class="text-secondary text-uppercase font-weight-bold lead">Missing Flying? Flights to Nowhere Take Off As a New Travel Trend</p>
+            </figcaption>
+          </figure>
+
+          <figure class="col-12 col-md-4">
+            <img src="img/culture-and-travel.jpg" alt="my-turn" class="w-100">
+            <figcaption class='mt-2'>
+              <p class="text-secondary text-uppercase font-weight-bold lead">Missing Flying? Flights to Nowhere Take Off As a New Travel Trend</p>
+            </figcaption>
+          </figure>
+
+          <figure class="col-12 col-md-4">
+            <img src="img/culture-and-travel.jpg" alt="my-turn" class="w-100">
+            <figcaption class='mt-2'>
+              <p class="text-secondary text-uppercase font-weight-bold lead">Missing Flying? Flights to Nowhere Take Off As a New Travel Trend</p>
+            </figcaption>
+          </figure>
+
+        </section>
+
+        <!-- culture section ends here -->
+
+        <!-- more stories section starts here-->
+		<div id="more-stories-original" class="sticky-top">
+        <section class="more-story bg-white  mt-4 mt-sm-4 mt-md-0 order-5">
+
+          <h6 class="text-secondary text-uppercase font-weight-bold">more stories</h6>
+
+          <ul class="list-unstyled">
+            <li class="media py-3 border-bottom border-top">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+            <li class="media py-3 border-bottom">
+              <a href="#"><img class="mr-3" src="img/more-stories.jpg" alt="more-stories-image"></a>
+              <div class="media-body">
+                <a href="#"><h6 class="mt-0 mb-1 font-weight-bold">Biden Leads Trump by 17-Points Over Handling of COVID-19 Pandemic</h6></a> A new poll indicated 58 percent of voters disapprove of how the president handled the outbreak.
+              </div>
+            </li>
+          </ul>
+
+        </section>
 		</div>
+        <!-- more stories section ends here -->
+      </div>
 
-	  <div class="card mt-3">
-		  <a href="#">
-			<figure class="position-relative card-img-top">
-			  <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
-			</figure>
-		  </a>
-		  <div class="card-body">
-			<a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
-			<p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+      <div class="wrapper-section-3 p-0 col-12 col-lg-4 order-2 px-lg-3">
+
+        <!-- debate section starts here -->
+
+        <div id="debate-original">
+          <div id="d-o-wrapper">
+
+
+            <section class="the-debate bg-white  mt-4 mt-sm-4 mt-md-0 position-relative order-2">
+              <h6 class="text-secondary text-uppercase font-weight-bold">The Debate</h6>
+              <div class="media mb-s1 py-4 border-bottom">
+                <a href="#"><img src="img/debate.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+                <div class="media-body align-self-center text-secondary font-weight-bold">
+                  <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                  <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                </div>
+              </div>
+
+              <!-- <div class="container-fluid position-absolute d-flex p-0 b-10"> -->
+              <!-- <span  class=" mx-auto bg-dark rounded-circle p-2 text-white font-weight-bold">VS</span>  -->
+              <!-- </div> -->
+
+              <div class="border-top media">
+                <div class="media-body align-self-center text-secondary font-weight-bold">
+                  <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                  <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                </div>
+                <a href="#"><img src="img/debate.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+              </div>
+
+            </section>
+
+            <!-- debate section ends here -->
+
+            <!-- opinion section starts here -->
+            <section class="the-debate bg-white  mt-4 mt-sm-4 mt-md-0 order-3">
+              <h6 class="text-secondary text-uppercase font-weight-bold">The Opinion</h6>
+
+              <ul class="list-unstyled">
+                <li class="media py-3 border-bottom">
+                  <div class="media mb-s1">
+                    <a href="#"><img src="img/theopinion.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+                    <div class="media-body align-self-center text-secondary font-weight-bold">
+                      <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                      <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="media py-3 border-bottom border-top">
+                  <div class="media mb-s1">
+                    <a href="#"><img src="img/theopinion.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+                    <div class="media-body align-self-center text-secondary font-weight-bold">
+                      <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                      <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="media py-3 border-bottom border-top">
+                  <div class="media mb-s1">
+                    <a href="#"><img src="img/theopinion.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+                    <div class="media-body align-self-center text-secondary font-weight-bold">
+                      <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                      <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="media py-3 border-bottom border-top">
+                  <div class="media mb-s1">
+                    <a href="#"><img src="img/theopinion.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+                    <div class="media-body align-self-center text-secondary font-weight-bold">
+                      <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                      <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="media py-3 border-bottom border-top">
+                  <div class="media mb-s1">
+                    <a href="#"><img src="img/theopinion.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+                    <div class="media-body align-self-center text-secondary font-weight-bold">
+                      <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                      <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="media py-3 border-bottom border-top">
+                  <div class="media mb-s1">
+                    <a href="#"><img src="img/theopinion.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+                    <div class="media-body align-self-center text-secondary font-weight-bold">
+                      <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                      <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="media py-3 border-bottom border-top">
+                  <div class="media mb-s1">
+                    <a href="#"><img src="img/theopinion.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+                    <div class="media-body align-self-center text-secondary font-weight-bold">
+                      <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                      <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="media py-3 border-top">
+                  <div class="media mb-s1">
+                    <a href="#"><img src="img/theopinion.png" alt="debate" class="w-6 h-6 mr-3 align-self-center"></a>
+                    <div class="media-body align-self-center text-secondary font-weight-bold">
+                      <a href="#"><h6 class="mt-0 font-weight-bold mb-1">The Time Is Now to Recommit to a National Assault Weapon Ban</h6></a> BY
+                      <a href="#" class="d-inline-block font-weight-bold text-secondary text-uppercase mb-0">Eric Swalwell</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+
+        <!-- opinion section ends here -->
+
+        <!-- sponsored2 section starts here -->
+        <section class="sponsored-section2 mt-4 mt-sm-4 mt-md-0 bg-white col-md-6 col-lg-12 mx-auto p-0">
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+
+          <div class="sign-up bg-light w-75 text-uppercase font-weight-bold p-3 my-4 border mx-auto">
+            <div class="d-flex align-items-start">
+              <h5 class="font-weight-ultra font-family-roboto px-2 py-1 bg-danger text-white mr-2">N</h5> Start your day with our top 5 articles
+            </div>
+
+            <form action="#" class="mt-2">
+              <input type="email" name="email" value="Email Address" class="border p-2 text-secondary w-100">
+              <button type="submit" class="bg-danger text-white text-center border-0 w-100 rounded mt-2 p-2 text-uppercase font-weight-bold">Free Sign Up</button>
+            </form>
+
+          </div>
+
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <a href="#">
+              <figure class="position-relative card-img-top">
+                <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
+                <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
+              <p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- sponsored2 section ends here -->
+    </div>
+  </main>
+  <div class="container-fluid bottom-wrapper bg-white">
+
+	<div class="d-flex justify-content-center">
+          <h5 class="font-weight-ultra font-family-roboto px-2 py-1 bg-danger text-white mr-2">N</h5>
+          <h5 class="font-weight-bold text-uppercase">In The Magazine</h5>
+        </div>
+
+
+    <div class="in-the-mag mt-4 row">
+	        <div class="in-the-magazine col-12 col-md-3">
+		<figure class="wrapper position-relative">
+          <img class="w-100" src="img/mag.jpg" alt="mag">
+          <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">October 16 issue</h5>
+        </figure>
+      </div>
+
+      <div class="in-the-magazine col-12 col-md-3 mt-2">
+        <figure class="wrapper">
+          <img class="w-100" src="img/mag1.jpg" alt="mag">
+          <figcaption class="font-weight-bold mt-2">
+            <span class="text-uppercase font-weight-bold bg-danger text-white px-2 py-1">October 16 issue</span>
+            <span class="text-uppercase font-weight-bold px-2 py-1">Opinion</span>
+            <p class="font-weight-bold mt-2">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="in-the-magazine col-12 col-md-3 mt-2">
+        <figure class="wrapper">
+          <img class="w-100" src="img/mag1.jpg" alt="mag">
+          <figcaption class="font-weight-bold mt-2">
+            <span class="text-uppercase font-weight-bold bg-danger text-white px-2 py-1">October 16 issue</span>
+            <span class="text-uppercase font-weight-bold px-2 py-1">Opinion</span>
+            <p class="font-weight-bold mt-2">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="in-the-magazine col-12 col-md-3 mt-2">
+        <figure class="wrapper">
+          <img class="w-100" src="img/mag1.jpg" alt="mag">
+          <figcaption class="font-weight-bold mt-2">
+            <span class="text-uppercase font-weight-bold bg-danger text-white px-2 py-1">October 16 issue</span>
+            <span class="text-uppercase font-weight-bold px-2 py-1">Opinion</span>
+            <p class="font-weight-bold mt-2">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="in-the-magazine col-12 col-md-3 mt-2">
+        <figure class="wrapper">
+          <img class="w-100" src="img/mag1.jpg" alt="mag">
+          <figcaption class="font-weight-bold mt-2">
+            <span class="text-uppercase font-weight-bold bg-danger text-white px-2 py-1">October 16 issue</span>
+            <span class="text-uppercase font-weight-bold px-2 py-1">Opinion</span>
+            <p class="font-weight-bold mt-2">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="in-the-magazine col-12 col-md-3 mt-2">
+        <figure class="wrapper">
+          <img class="w-100" src="img/mag1.jpg" alt="mag">
+          <figcaption class="font-weight-bold mt-2">
+            <span class="text-uppercase font-weight-bold bg-danger text-white px-2 py-1">October 16 issue</span>
+            <span class="text-uppercase font-weight-bold px-2 py-1">Opinion</span>
+            <p class="font-weight-bold mt-2">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="in-the-magazine col-12 col-md-3 mt-2">
+        <figure class="wrapper">
+          <img class="w-100" src="img/mag1.jpg" alt="mag">
+          <figcaption class="font-weight-bold mt-2">
+            <span class="text-uppercase font-weight-bold bg-danger text-white px-2 py-1">October 16 issue</span>
+            <span class="text-uppercase font-weight-bold px-2 py-1">Opinion</span>
+            <p class="font-weight-bold mt-2">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</p>
+          </figcaption>
+        </figure>
+      </div>
+
+
+      <div class="in-the-magazine col-12 col-md-3 mt-2">
+        <figure class="wrapper">
+          <img class="w-100" src="img/mag1.jpg" alt="mag">
+          <figcaption class="font-weight-bold mt-2">
+            <span class="text-uppercase font-weight-bold bg-danger text-white px-2 py-1">October 16 issue</span>
+            <span class="text-uppercase font-weight-bold px-2 py-1">Opinion</span>
+            <p class="font-weight-bold mt-2">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</p>
+          </figcaption>
+        </figure>
+      </div>
+	</div>
+	<!-- in the magazine ends here -->
+
+	<!-- editors pick starts here -->
+
+      <div class="editor's pick">
+
+        <div class="d-flex justify-content-center align-items-center">
+          <h5 class="font-weight-ultra font-family-roboto px-2 py-1 bg-danger text-white mr-2">N</h5>
+          <h5 class="font-weight-bold text-uppercase">Editor's Pick</h5>
+        </div>
+
+        <figure class="wrapper position-relative">
+          <img class="w-100" src="img/editors-pick.jpg" alt="mag">
+          <span class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Politics</span>
+        </figure>
+        <h5 class="font-weight-bold">Watchdog Group Calls for Hearings on Donald Trump's 'Anti-Democratic Conduct'</h5>
+        <p>The Friday letter from Citizens for Responsibility and Ethics in Washington said that without proper oversight, "our democratic institutions will continue to slip away."</p>
+      </div>
+
+	  <!-- editors pick ends here -->
+
+      
+	
+
+    <section class="after-editor-pick border-bottom py-3">
+      <h5 class="font-weight-bold text-danger">World</h5>
+      <figure>
+        <img src="img/aftereditor.jpg" alt="after-editor" class='w-100'>
+        <figcaption>
+          <h5 class="font-weight-bold">Iran Sees Highest Single-Day COVID Death Toll, Senior Officials Infected</h5>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/aftereditor.jpg" alt="after-editor" class='w-100'>
+        <figcaption>
+          <h5 class="font-weight-bold">Iran Sees Highest Single-Day COVID Death Toll, Senior Officials Infected</h5>
+        </figcaption>
+      </figure>
+
+      <ul class="list-unstyled">
+		<li class="p-2 row">
+		  <figure class="col">
+		  <a href="#"><img src="img/aftereditor.jpg" alt="after-editor" class="w-100"></a>
+		  </figure> 
+		  <div class="col">
+		    <a href="#"><h5 class="font-weight-bold">North Korea Displays New Intercontinental Ballistic Missile at Parade</h5></a>
 		  </div>
-		</div>
+		</li>
 
-	  <div class="card mt-3">
-		  <a href="#">
-			<figure class="position-relative card-img-top">
-			  <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
-			</figure>
-		  </a>
-		  <div class="card-body">
-			<a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
-			<p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+		<li class="border-bottom border-top p-2 row">
+		  <figure class="col">
+		  <a href="#"><img src="img/aftereditor.jpg" alt="after-editor" class="w-100"></a>
+		  </figure> 
+		  <div class="col">
+		    <a href="#"><h5 class="font-weight-bold">North Korea Displays New Intercontinental Ballistic Missile at Parade</h5></a>
 		  </div>
-		</div>
+		</li>
 
-	  <div class="card mt-3">
-		  <a href="#">
-			<figure class="position-relative card-img-top">
-			  <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
-			</figure>
-		  </a>
-		  <div class="card-body">
-			<a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
-			<p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+		<li class="p-2 row">
+		  <figure class="col">
+		  <a href="#"><img src="img/aftereditor.jpg" alt="after-editor" class="w-100"></a>
+		  </figure> 
+		  <div class="col">
+		    <a href="#"><h5 class="font-weight-bold">North Korea Displays New Intercontinental Ballistic Missile at Parade</h5></a>
 		  </div>
-		</div>
+		</li>
 
-	  <div class="card mt-3">
-		  <a href="#">
-			<figure class="position-relative card-img-top">
-			  <img src="img/sponsored-section.jpg" alt="sponsored-image" class="w-100">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Sponsored Insight</h5>
-			</figure>
-		  </a>
-		  <div class="card-body">
-			<a href="#"><h5 class="card-title font-weight-bold">America's Best Banks 2021</h5></a>
-			<p class="card-text lead">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
-		  </div>
-		</div>
-	  </section>
-	  <!-- sponsored section ends here -->
 
-	  <!-- top story section starts here -->
-	  <section class="p-3 top-story bg-white shadow-sm mt-4 mt-sm-4 mt-md-0">
-		<h6 class="text-secondary text-uppercase font-weight-bold">Top Story</h6>
-		<div class="wrapper">
-		  <a href="#">
-			<figure class="position-relative">
-			  <img class="w-100" src="img/topstory.jpg" alt="top-story-image">
-			  <h5 class="text-uppercase font-weight-bold bg-light text-danger d-inline-block px-3 py-1 position-absolute m-0 b-0 l-0">Politics</h5>
-			</figure>
-		  </a>
-		  <a href="#"><h5 class="font-weight-bold text-uppercase">Trump Makes 'Law and Order' Pitch to Black, Latino Voters in WH Speech</h5></a>
-		  <p class="lead">The president said his "pro-police" campaign is necessary for Blacks and Latinos to feel safe in Democratic-run cities.</p>
-		</div>		
-	  </section>
-	  <!-- top story section ends -->
+	  </ul>
 
-	  <!-- my turn section starts here -->
-	  <section class="p-3 my-turn bg-white shadow-sm mt-4 mt-sm-4 mt-md-0">
-		<h6 class="text-secondary text-uppercase font-weight-bold">My Turn</h6>
-		<figure>
-		  <img src="img/myturn-new.jpg" alt="my-turn" class="w-100">
-		  <figcaption class='mt-2'>
-			<p class="text-secondary text-uppercase font-weight-bold lead">'I Divorced In April. Now I Live Across The World With A New Love'</p>
-		  </figcaption>
-		</figure>
+    </section>
 
-		<figure class="mt-2">
-		  <img src="img/myturn-new.jpg" alt="my-turn" class="w-100">
-		  <figcaption class='mt-2'>
-			<p class="text-secondary text-uppercase font-weight-bold lead">'I Divorced In April. Now I Live Across The World With A New Love'</p>
-		  </figcaption>
-		</figure>
 
-		<figure class="mt-2">
-		  <img src="img/myturn-new.jpg" alt="my-turn" class="w-100">
-		  <figcaption class='mt-2'>
-			<p class="text-secondary text-uppercase font-weight-bold lead">'I Divorced In April. Now I Live Across The World With A New Love'</p>
-		  </figcaption>
-		</figure>
-	  </section>
-	  <!-- my turn section ends here -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
 
-	  <!-- culture section starts here -->
-	  
-	  <section class="culture-and-travel px-3 bg-white mt-0">
-		<h6 class="text-secondary text-uppercase font-weight-bold">Culture &amp; Travel</h6>	
-		<figure class="mt-2">
-		  <img src="img/culture-and-travel.jpg" alt="my-turn" class="w-100">
-		  <figcaption class='mt-2'>
-			<p class="text-secondary text-uppercase font-weight-bold lead">Missing Flying? Flights to Nowhere Take Off As a New Travel Trend</p>
-		  </figcaption>
-		</figure>
-
-		<figure>
-		  <img src="img/culture-and-travel.jpg" alt="my-turn" class="w-100">
-		  <figcaption class='mt-2'>
-			<p class="text-secondary text-uppercase font-weight-bold lead">Missing Flying? Flights to Nowhere Take Off As a New Travel Trend</p>
-		  </figcaption>
-		</figure>
-
-		<figure>
-		  <img src="img/culture-and-travel.jpg" alt="my-turn" class="w-100">
-		  <figcaption class='mt-2'>
-			<p class="text-secondary text-uppercase font-weight-bold lead">Missing Flying? Flights to Nowhere Take Off As a New Travel Trend</p>
-		  </figcaption>
-		</figure>
-
-	  </section>
-	</main>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
 </html>
