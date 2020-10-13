@@ -3,5 +3,5 @@ bootstrap.scss
 package-lock.json
 package.json
 .hintrc
-.styelintrc.json
+.stylelintrc.json
 
