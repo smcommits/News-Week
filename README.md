@@ -2,7 +2,7 @@
 
 > This project contains the clone of [Home Page](https://www.newsweek.com/) of the News Week Website.
 
-![screenshot](./img/screenshot.png)
+![screenshot](./img/Screenshot.png)
 
 
 ## Built With
