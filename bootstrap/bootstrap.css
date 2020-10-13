@@ -619,8 +619,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+ /*  margin-right: -15px; */
+  /* margin-left: -15px; */
 }
 
 .no-gutters {
@@ -14646,6 +14646,26 @@ a.text-dark:hover, a.text-dark:focus {
 
 .h-10 {
   height: 100px !important;
+}
+
+.f-1 {
+  font-size: 0.5em !important;
+}
+
+.f-2 {
+  font-size: 1em !important;
+}
+
+.f-3 {
+  font-size: 1.5em !important;
+}
+
+.f-4 {
+  font-size: 2em !important;
+}
+
+.f-5 {
+  font-size: 2.5em !important;
 }
 
 @media print {
