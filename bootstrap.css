@@ -619,8 +619,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-/*   margin-right: -15px; */
-  /* margin-left: -15px; */
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .no-gutters {
@@ -14787,6 +14787,13 @@ h3 {
 
 .mag-title {
   z-index: 1;
+}
+
+.back {
+  background-image: url(img/newslettwr.png);
+  height: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
