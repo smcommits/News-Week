@@ -619,7 +619,7 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-/*   margin-right: -15px; */
+ /*  margin-right: -15px; */
   /* margin-left: -15px; */
 }
 
@@ -14787,6 +14787,44 @@ h3 {
 
 .mag-title {
   z-index: 1;
+}
+
+.back {
+  background: url(../img/newslettwr.png) center center/cover no-repeat;
+  height: 170px;
+}
+
+@media (min-width: 768px) {
+  .news-wrapper {
+    display: flex;
+  }
+
+  .back {
+    width: 48%;
+    height: unset;
+  }
+
+  .bottom-nav a {
+    border-right: 1px solid #ccc;
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .newsletter-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-wrapper {
+    height: 100%;
+  }
+}
+.line-height {
+  line-height: 12px;
+}
+
+.sign-up {
+  max-width: 300px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
