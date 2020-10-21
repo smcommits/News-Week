@@ -1,8 +1,8 @@
-# News-Week
+# Free Course Camp  
 
-> This project contains the clone of [Home Page](https://www.newsweek.com/) of the News Week Website.
+> This website is a directory of free and quality courses available online. The courses are in the domains like Programming, Computer Science, and other IT related domains. 
 
-![screenshot](./img/Screenshot.png)
+![screenshot](./img/screenshot.png)
 
 
 ## Built With
@@ -10,22 +10,18 @@
 **HTML**
 - Designed in Semantic HTML style.
 
+**SASS**
+This website is completely styled using SASS. It contains various different mixins for things like flex display, text-transform
+and transitions. 
 
-**Bootstrap**
-This project uses bootstrap framework for styling. No use of custom css. 
-- Layout is completely designed using bootstrap's 'row' and 'col' classes
-- Every color is defined using bootstrap classes
-- Positioning is implemented using bootstrap classes
-- Fonts and sizes are implemented from bootstrap's reboot
-- Created a custom mixin for top, right, left, and bottom positioning. 
-- Created a custom mixin for font size with base font of 1em.
-- Edited the default bootstrap basic colors to match it with the homepage of News Week
+**JS** 
+This website makes use of Java Script to create and display the carousel
 
 
 
 ## Live Demo
 
-[Live Demo Link](https://smcommits.github.io/News-Week/)
+[Live Demo Link](https://smcommits.github.io/freeCourseCamp)
 
 
 ## Getting Started
@@ -42,6 +38,11 @@ This project uses bootstrap framework for styling. No use of custom css.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+
+## Aknowledgements 
+
+The vectors and illustration on the website are downloaded from [Freepik](freepik.com). Please, refer to the footer section of the website to know more about creators.
 
 
 
